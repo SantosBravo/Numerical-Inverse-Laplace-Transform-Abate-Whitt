@@ -1,6 +1,6 @@
 # Numerical Inversion of a Laplace Transform Using the Euler Method of Abate and Whitt
 
-In _EulerILT.nb_ I provide the Mathematica function _EulerILT_ , which uses the Euler algorithm described by Abate and Whitt in [1], to numerically invert a Laplace transform. The function _EulerILTwithTruncationError_ provided in _EulerILTwithTruncationError.nb_ is the same as _EulerILT_, but includes an estimate of the truncation error of the procedure (see [1] for details). _EulerILTwithTruncationError_ is basically the translation from UBASIC to Mathematica of the algorithm EULER of pages 7 and 8 of [1].
+In _Examples_use_of_EulerILT.nb_ I provide the Mathematica function _EulerILT_ , which uses the Euler algorithm described by Abate and Whitt in [1], to numerically invert a Laplace transform. The function _EulerILTwithTruncationError_ also provided in _Examples_use_of_EulerILT.nb_ is the same as _EulerILT_, but includes an estimate of the truncation error of the procedure (see [1] for details). The function _EulerILT_ (and _EulerILTwithTruncationError_) is basically the translation from UBASIC to Mathematica of the algorithm EULER of pages 7 and 8 of [1].
 
 ## Installation
 
@@ -11,7 +11,6 @@ Copy the function EulerILT (or EulerILTwithTruncationError) into a Mathematica n
 1. You have to write the Laplace transform function you want to invert numerically f[s,p1,p2,...] in the form f[s,{p1,p2,...}]. Here s is the Laplace variable and p1,p2,... are parameters of the function. If there are no parameters and the function is just f[s], then write it as f[s,{}].
 2. EulerILT[f,t, {p1,p2,...}] returns the numeric value of the inverse Laplace transform of f[s,{p1,p2,...}] evaluated at point t.
 
-In the file _ExamplesofEulerILT.nb_ I give more details and examples on how to use the functions _EulerILT_ and _EulerILTwithTruncationError_.
 
 ## References
 
