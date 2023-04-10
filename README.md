@@ -1,6 +1,6 @@
 # Numerical Inversion of a Laplace Transform Using the Euler Method of Abate and Whitt
 
-In _Examples_use_of_EulerILT.nb_ I provide the Mathematica function _EulerILT_ , which uses the Euler algorithm described by Abate and Whitt in [1], to numerically invert a Laplace transform. The function _EulerILTwithTruncationError_ also provided in _Examples_use_of_EulerILT.nb_ is the same as _EulerILT_, but includes an estimate of the truncation error of the procedure (see [1] for details). The function _EulerILT_ (and _EulerILTwithTruncationError_) is basically the translation from UBASIC to Mathematica of the algorithm EULER of pages 7 and 8 of [1].
+In _Examples_use_of_EulerILT.nb_ I provide the Mathematica function _EulerILT_ , which uses the Euler algorithm described by Abate and Whitt in [1], to numerically invert a Laplace transform. The function _EulerILTwithTruncationError_, also provided in _Examples_use_of_EulerILT.nb_, is the same as _EulerILT_, but includes an estimate of the truncation error of the procedure (see [1] for details). The function _EulerILT_ (and _EulerILTwithTruncationError_) is basically the translation from UBASIC to Mathematica of the algorithm EULER of pages 7 and 8 of [1].
 
 ## Installation
 
