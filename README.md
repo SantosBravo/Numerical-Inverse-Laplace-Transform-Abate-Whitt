@@ -1,4 +1,4 @@
-# Numerical Inversion of Laplace Transforms Using the Euler Method of Abate and Whitt
+# Numerical Inversion of Laplace Transforms Using the Euler Algorithm of Abate and Whitt
 
 Mathematica implementation of the EULER algorithm of Abate and Whitt [1] for numerically inverting Laplace transforms. It is essentially a translation from UBASIC to Mathematica of the algorithm EULER on pages 7–8 of [1]. Since Mathematica supports arbitrary-precision arithmetic, roundoff error can be controlled simply by raising the working precision. This is important because the series involved is alternating.
 
